@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #137fec;
+  --bg-light: #f6f7f8;
+  --text-main: #111418;
+  --text-secondary: #617589;
+}
+
+[data-theme="boutique"] {
+  --color-primary: #948068;
+  --bg-light: #f0eee9;
+  --text-main: #3d342b;
+  --text-secondary: #7a6e61;
+}
+
+[data-theme="boutique"] .dark\:bg-gray-900 {
+  background-color: #e6e2db !important;
+}
+
+[data-theme="boutique"] .bg-white {
+  background-color: #fffaf5 !important;
+}
